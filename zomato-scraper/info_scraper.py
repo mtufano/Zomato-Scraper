@@ -61,7 +61,5 @@ def get_restaurant_info(url_list, save=True, file_name="Restaurants.csv"):
 
 
 if __name__ == "__main__":
-    urls = ["https://www.zomato.com/bangalore/voosh-thalis-bowls-1-bellandur-bangalore",
-            "https://www.zomato.com/bangalore/flying-kombucha-itpl-main-road-whitefield-bangalore",
-            "https://www.zomato.com/bangalore/matteo-coffea-indiranagar"]
+    urls = ["https://www.zomato.com/dubai/dine-out"]
     get_restaurant_info(urls)

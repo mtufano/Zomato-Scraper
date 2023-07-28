@@ -84,5 +84,5 @@ def get_menu(url, save=True):
 
 
 if __name__ == "__main__":
-    link = "https://www.zomato.com/bangalore/voosh-thalis-bowls-1-bellandur-bangalore"
+    link = "https://www.zomato.com/dubai/tanatan-business-bay/info"
     dframe = get_menu(link, save=True)

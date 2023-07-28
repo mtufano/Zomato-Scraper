@@ -13,7 +13,7 @@ def scrape_all_data(url_list):
 
 
 if __name__ == '__main__':
-    urls = ["https://www.zomato.com/bangalore/voosh-thalis-bowls-1-bellandur-bangalore",
-            "https://www.zomato.com/bangalore/flying-kombucha-itpl-main-road-whitefield-bangalore",
-            "https://www.zomato.com/bangalore/matteo-coffea-indiranagar"]
+    urls = ["https://www.zomato.com/maharajabhogthali/info"]
+            #"https://www.zomato.com/bangalore/flying-komb",
+            #"https://www.zomato.com/bangalore/matteo-coffea-indiranagar"]
     scrape_all_data(urls)

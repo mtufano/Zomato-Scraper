@@ -14,7 +14,8 @@ def clean_reviews(html_text):
     """ Cleans and collect the review from the html """
     
     reviews = html_text.find_all('script', type='application/ld+json')[1]
-    reviews = json.loads(reviews.string)['reviews']
+    print(json.loads(reviews.string)) # This is the line that prints the reviews
+    #reviews = json.loads(reviews.string)['reviews']
     data = []
     for review in reviews:
         data.append((
@@ -75,4 +76,4 @@ def get_reviews(url, max_reviews, sort='popular', save=True):
 
 
 if __name__ == "__main__":
-    get_reviews("https://www.zomato.com/bangalore/meghana-foods-marathahalli-bangalore", 70, sort='new')
+    get_reviews("https://www.zomato.com/dubai/tanatan-business-bay", 70, sort='new')
